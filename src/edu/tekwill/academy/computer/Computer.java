@@ -4,11 +4,11 @@ import edu.tekwill.academy.computer.components.*;
 import edu.tekwill.academy.computer.peripherals.*;
 
 public class Computer {
-    Processor f =  new Processor();
-    Motherboard e = new Motherboard();
-    HardDrive g = new HardDrive();
+    Processor processor;
+    Motherboard motherboard;
+    HardDrive hardDrive;
 
-    Monitor i = new Monitor();
-    Mouse y = new Mouse();
-    Keyboard j = new Keyboard();
+    Monitor monitor;
+    Mouse mouse;
+    Keyboard keyboard;
 }
